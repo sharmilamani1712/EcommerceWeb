@@ -1,0 +1,80 @@
+body {
+    background-color: pink;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: lightcoral;
+}
+
+h1, h2 {
+    color: peachpuff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    background-color: peachpuff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: coral;
+}
+
+.login-container, .main, footer {
+    text-align: center;
+    padding: 50px;
+}
+
+label, input {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    background-color: peachpuff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+.offers, .featured-products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    display: inline-block;
+    margin: 15px;
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: lightcoral;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    color: white;
+}
